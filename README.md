@@ -9,12 +9,12 @@ https://arxiv.org/pdf/2205.14217.pdf
 ```python 
 conda install mpi4py
 conda install pytorch torchvision torchaudio cudatoolkit=11.3 -c pytorch
-pip install -e improved-diffusion/ 
-pip install -e transformers/
-pip install spacy==3.2.4
-pip install datasets==1.8.0 
-pip install huggingface_hub==0.4.0 
-pip install wandb
+pip install -e improved-diffusion/ -i https://pypi.tuna.tsinghua.edu.cn/simple
+pip install -e transformers/ -i https://pypi.tuna.tsinghua.edu.cn/simple
+pip install spacy==3.2.4 -i https://pypi.tuna.tsinghua.edu.cn/simple
+pip install datasets==1.8.0 -i https://pypi.tuna.tsinghua.edu.cn/simple
+pip install huggingface_hub==0.4.0 -i https://pypi.tuna.tsinghua.edu.cn/simple
+pip install wandb -i https://pypi.tuna.tsinghua.edu.cn/simple
 ```
 
 -----------------------------------------------------
