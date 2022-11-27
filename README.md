@@ -8,7 +8,7 @@ https://arxiv.org/pdf/2205.14217.pdf
 ## Conda Setup:
 ```python 
 conda install mpi4py
-conda install pytorch torchvision torchaudio cudatoolkit=11.3 -c pytorch
+conda install pytorch torchvision torchaudio cudatoolkit=11.3 
 pip install -e improved-diffusion/ -i https://pypi.tuna.tsinghua.edu.cn/simple
 pip install -e transformers/ -i https://pypi.tuna.tsinghua.edu.cn/simple
 pip install spacy==3.2.4 -i https://pypi.tuna.tsinghua.edu.cn/simple
